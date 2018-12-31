@@ -4,7 +4,7 @@ import sys
 import json
 import boto3 
 
-ec2client = boto3.client('ec2',region_name='us-east-1',aws_access_key_id='AKIAJZGVLPHK6CITQXEQ',aws_secret_access_key='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')
+ec2client = boto3.client('ec2',region_name='us-east-1',aws_access_key_id='',aws_secret_access_key='')
 
 response = ec2client.describe_instances(
     Filters=[
